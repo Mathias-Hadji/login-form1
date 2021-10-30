@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(circle at center right, rgb(202, 57, 146),rgb(11, 5, 110));
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Poppins;
+}
+
+.login-form-container {
+    background: #fff;
+    width: 960px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 140px 108px 35px 93px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-login h1 {
+    text-align: center;
+    margin: 0 0 40px 0;
+    color: #333;
+    font-size: 25px;
+}
+
+.form-login label {
+    display: none;
+}
+
+.form-login input {
+    background: #E6E6E6;
+    color: #666;
+    display: block;
+    border: none;
+    margin: 5px 0;
+    font-size: 15px;
+    padding: 0 30px 0 68px;
+    border-radius: 25px;
+    height: 50px;
+    font-weight: 600;
+}
+
+.container-input {
+    position: relative;
+}
+
+.fa-envelope {
+    font-size: 15px;
+    color: #666;
+    position: absolute;
+    top: 50%;
+    left: 35px;
+    transform: translateY(-50%);
+}
+
+.fa-lock {
+    font-size: 15px;
+    color: #666;
+    position: absolute;
+    top: 50%;
+    left: 35px;
+    transform: translateY(-50%);
+}
+
+.form-login button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: #57b846;
+    border-radius: 25px;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 15px;
+    margin: 25px 0 15px;
+    font-weight: bold;
+    font-family: Montserrat;
+    cursor: pointer;
+}
+
+.txt-email-lost {
+    text-align: center;
+    font-size: 13px;
+}
+
+.txt-create-account {
+    text-align: center;
+    margin-top: auto;
+    font-size: 13px;
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-long-arrow-alt-right {
+    margin-left: 5px;
+    color: #666;
+}
