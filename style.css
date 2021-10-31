@@ -31,7 +31,13 @@ body {
 }
 
 .img-container {
+    width: 50%;
     transition: all 0.2s ease-in-out;
+    margin-right: 20px;
+}
+
+.img-container img {
+    width: 100%;
 }
 
 .img-container:hover {
@@ -42,6 +48,7 @@ body {
 .form-login {
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 .form-login h1 {
@@ -74,6 +81,10 @@ body {
 
 .container-input {
     position: relative;
+}
+
+.container-input input {
+    width: 100%;
 }
 
 .fa-envelope {
@@ -149,3 +160,33 @@ body {
 }
 
 
+/* ------------- Responsive ------------- */
+
+
+@media screen and (max-width: 1000px) {
+    .login-form-container {
+        margin: 0 20px;
+    }
+}
+
+
+@media screen and (max-width: 865px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .img-container {
+        display: none;
+    }
+
+    .form-login {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 557px) {
+
+    .login-form-container {      
+        padding: 95px 20px 35px 20px;
+    }
+}
