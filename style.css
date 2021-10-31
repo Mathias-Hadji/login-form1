@@ -27,6 +27,15 @@ body {
     height: 100%;
     display: flex;
     justify-content: space-between;
+
+}
+
+.img-container {
+    transition: all 0.2s ease-in-out;
+}
+
+.img-container:hover {
+    transform: scale(1.2);
 }
 
 
@@ -57,6 +66,10 @@ body {
     border-radius: 25px;
     height: 50px;
     font-weight: 600;
+}
+
+.form-login input:focus {
+    background: #4ba53b44;
 }
 
 .container-input {
@@ -97,9 +110,20 @@ body {
     cursor: pointer;
 }
 
+.form-login button:hover {
+    transition: all 0.2s ease-in-out;
+    background: #333;
+}
+
 .txt-email-lost {
     text-align: center;
     font-size: 13px;
+    cursor: pointer;
+}
+
+.txt-email-lost:hover {
+    transition: all 0.2s ease-in-out;
+    color: #57b846;
 }
 
 .txt-create-account {
@@ -113,7 +137,15 @@ body {
     align-items: center;
 }
 
+.txt-create-account:hover, 
+.fa-long-arrow-alt-right:hover {
+    transition: all 0.2s ease-in-out;
+    color: #57b846;
+}
+
 .fa-long-arrow-alt-right {
     margin-left: 5px;
     color: #666;
 }
+
+
